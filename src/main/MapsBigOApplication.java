@@ -41,6 +41,7 @@ public class MapsBigOApplication {
 				new Aluno(KeyGeneratorIdentifier.getIdentifier("20"),"Osvaldo","14","Turma C"));
 		hashMapAlunos.removerAluno(AlunosDataSet.getDataSetAluno().get(1).getIdentifier());
 		hashMapAlunos.recuperarAlunoPorIdentificador(AlunosDataSet.getDataSetAluno().get(3).getIdentifier());
+		hashMapAlunos.recuperarAlunoPorIdentificador("320");
 		hashMapAlunos.recuperarTamanhoMap();
 	}
 }
